@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registrar usuario</title>
+
+</head>
+
+<body>
+	<main>
+		<h1>Registro del usuario</h1>
+		<form action="/Tienda/SrvRegistroUsuario" method="get">
+			<table>
+				<tr>
+					<td>
+						<label>User name:</label>
+					</td>
+					<td>
+						<input required="required" type="text" id="txtUser" name="user">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Password:</label>
+					</td>
+					<td>
+						<input required="required" type="password" id="txtPass" name="pass">
+					</td>
+				</tr>
+			</table>
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+</body>
+</html>
